@@ -22,7 +22,7 @@ After singing up for an osTicket Support Sytem account,  this guide will help yo
 
 ---
 
-## 1. Setting Up Roles
+## Setting Up Roles
 
 Roles in osTicket determine agents' permissions and access levels. Follow these steps to create a new role:
 - **Path**: `Admin Panel > Agents > Roles`
@@ -40,7 +40,7 @@ Roles in osTicket determine agents' permissions and access levels. Follow these 
 
 ---
 
-## 2. Creating Departments
+## Creating Departments
 
 Departments are designed to assign agents according to their roles within the help desk.
 - **Path**: `Admin Panel > Agents > Departments`
@@ -53,7 +53,7 @@ Departments are designed to assign agents according to their roles within the he
 
 ---
 
-## 3. Configuring Teams
+## Configuring Teams
 
 Teams allow you to group agents from different departments to work on specific issues.
 - **Path**: `Admin Panel > Agents > Teams`
@@ -68,7 +68,7 @@ Teams allow you to group agents from different departments to work on specific i
 
 ---
 
-## 4. Public Ticket Creation
+## Public Ticket Creation
 
 To allow anyone to create tickets in your osTicket system:
 - **Path**: `Admin Panel > Settings > User Settings`
@@ -78,7 +78,7 @@ To allow anyone to create tickets in your osTicket system:
 
 ---
 
-## 5. Creating Agents
+## Creating Agents
 
 Agents are responsible for resolving tickets. Agents can be assigned primary departments and roles based on the department.
 - **Path**: `Admin Panel > Agents > Add New Agent`
@@ -93,7 +93,7 @@ Agents are responsible for resolving tickets. Agents can be assigned primary dep
 
 ---
 
-## 6. Adding Users
+## Adding Users
 
 Users are the end customers who create tickets when they encounter issues.
 - **Path**: `Agent Panel > Users > User Directory > Add New`
@@ -107,7 +107,7 @@ Users are the end customers who create tickets when they encounter issues.
 
 ---
 
-## 7. Setting Up SLA Plans
+## Setting Up SLA Plans
 
 SLA (Service Level Agreement) Plans define response and resolution times for tickets.
 - **Path**: `Admin Panel > Manage > SLA Plans`
@@ -120,7 +120,7 @@ SLA (Service Level Agreement) Plans define response and resolution times for tic
 
 ---
 
-## 8. Creating Help Topics
+## Creating Help Topics
 
 Help topics help users categorize their tickets, aiding in faster issue resolution.
 - **Path**: `Admin Panel > Manage > Help Topics`
@@ -131,11 +131,11 @@ Help topics help users categorize their tickets, aiding in faster issue resoluti
 
 
 
-## 9. Ticket Lifecycle
+## Ticket Lifecycle
 
 This section describes the lifecycle of a ticket from creation by an end user through prioritization, assignment, and resolution.
 
-### 9.1 Creating a Ticket as an End User
+### 1. Creating a Ticket as an End User
 
 End users can create tickets when they experience issues. For example, in this case:
 
@@ -149,7 +149,7 @@ End users can create tickets when they experience issues. For example, in this c
 
 After submission, tickets are visible in the **Agent Panel** for agents and managers to review.
 
-### 9.2 Ticket Monitoring and Assignment
+### 2. Ticket Monitoring and Assignment
 
 Once a ticket is created, agents can monitor live tickets via the **Agent Panel**. Queue managers handle:
 
@@ -161,7 +161,7 @@ Once a ticket is created, agents can monitor live tickets via the **Agent Panel*
 
 > **Tip**: Queue managers ensure that high-priority tickets are routed promptly to appropriate agents, reducing response times for critical issues.
 
-### 9.3 Setting Ticket Priority and SLA
+### 3. Setting Ticket Priority and SLA
 
 For urgent issues, queue managers set the ticket priority and update the SLA plan to ensure a quick response. In this example:
 
